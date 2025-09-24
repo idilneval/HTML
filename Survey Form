@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Description</p>
+
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Name (required):</label>
+      <input required type="text" id="name" placeholder="Name"><br>
+
+      <label for="email" id="email-label">Email (required):</label>
+      <input required type="email" id="email" placeholder="Email"><br>
+
+      <label for="number" id="number-label">Number (required):</label>
+      <input required type="number" id="number" min="10" max="50" placeholder="Number"><br>
+
+      <label>Gender:</label>
+      <select id="dropdown">
+        <option value="one">Option 1</option>
+        <option value="two">Option 2</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <label>Is it useful?</label><br>
+      <label for="useful-yes">Yes</label>
+      <input type="radio" name="useful" id="useful-yes" value="yes">
+      <label for="useful-no">No</label>
+      <input type="radio" name="useful" id="useful-no" value="no"><br>
+
+      <label>Is it easy?</label><br>
+      <label for="easy-yes">Yes</label>
+      <input type="radio" name="easy" id="easy-yes" value="yes">
+      <label for="easy-no">No</label>
+      <input type="radio" name="easy" id="easy-no" value="no">
+    </fieldset>
+
+    <fieldset>
+      <label>Which tools do you prefer?</label><br>
+      <label for="figma">Figma</label>
+      <input type="checkbox" name="tools" id="figma" value="figma"><br>
+      <label for="xd">Adobe XD</label>
+      <input type="checkbox" name="tools" id="xd" value="xd"><br>
+
+      <label for="comments">Other comments?</label><br>
+      <textarea id="comments" cols="30" rows="5"></textarea>
+    </fieldset>
+
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</body>
+</html>
