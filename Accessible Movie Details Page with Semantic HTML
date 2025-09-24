@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise Beyond - Movie Details</title>
+</head>
+<body>
+
+    <main>
+      <h1>Rise Beyond</h1>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="A movie poster for 'Rise Beyond' showing a person in a futuristic suit looking out at a city skyline.">
+      <p>In a dystopian future, a lone inventor discovers a way to transcend their desolate world. Through a series of daring leaps, they must navigate a hostile sky to find a rumored utopia and give humanity a new hope.</p>
+      <p>
+        <strong>Movie Rating:</strong>
+        <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>
+        (9.2/10)
+      </p>
+      <h2>Cast Members</h2>
+      <ul>
+        <li><strong>James Holloway</strong> as Ethan Carter</li>
+        <li><strong>Lina Chen</strong> as Dr. Aris Thorne</li>
+        <li><strong>Marcus Vance</strong> as Kael</li>
+        <li><strong>Sofia Rodriguez</strong> as The Architect</li>
+      </ul>
+    </main>
+    
+</body>
+</html>
